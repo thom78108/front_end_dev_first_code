@@ -1,0 +1,36 @@
+p {
+    color: green;
+}
+
+/* Additional CSS rules */
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.text {
+  color: green;
+}
+
+#smiley {
+  width: 300px;
+  height: auto;
+}
+
+/* Media query to shrink smiley face to 300px when viewport is equal to or smaller than 400px */
+@media only screen and (max-width: 400px) {
+  #smiley {
+    width: 300px;
+  }
+}
+
+/* Media query to set smiley face's width to percentage when viewport is equal to or smaller than 300px */
+@media only screen and (max-width: 300px) {
+  #smiley {
+    max-width: 300px;
+    width: 100%;
+  }
+}
